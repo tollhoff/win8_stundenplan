@@ -242,6 +242,8 @@
 					<RowDefinition Height="65"/>
 					<RowDefinition Height="10"/>
 					<RowDefinition Height="65"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="65"/>
 					<RowDefinition Height="1*"/>
 				</Grid.RowDefinitions>
 			</Grid>
@@ -264,6 +266,8 @@
 					<RowDefinition Height="65"/>
 					<RowDefinition Height="10"/>
 					<RowDefinition Height="65"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="65"/>
 					<RowDefinition Height="1*"/>
 				</Grid.RowDefinitions>
 			<TextBox x:Name="Label" Margin="0" TextWrapping="Wrap" Text="Tage /&#xD;&#xA;Uhrzeiten"/>
@@ -272,8 +276,8 @@
 			<TextBox x:Name="Mittwoch" Margin="0,2,0,8" Grid.Row="6" TextWrapping="Wrap" Text="Mittwoch" Grid.RowSpan="2"/>
 			<TextBox x:Name="Donnerstag" Margin="0" Grid.Row="8" TextWrapping="Wrap" Text="Donnerstag&#xD;&#xA;"/>
 			<TextBox x:Name="Freitag" Margin="0" Grid.Row="10" TextWrapping="Wrap" Text="Freitag&#xD;&#xA;"/>
-			<TextBox x:Name="Freitag_Copy" Margin="0" Grid.Row="12" TextWrapping="Wrap" Text="Samstag" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
-			<TextBox x:Name="Freitag_Copy1" Margin="-10,38,10,10" Grid.Row="13" TextWrapping="Wrap" Text="Samstag" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+			<TextBox x:Name="Samstag" Margin="0" Grid.Row="12" TextWrapping="Wrap" Text="Samstag" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+			<TextBox x:Name="Sonntag" Grid.Row="14" TextWrapping="Wrap" Text="Sonnt" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Height="65"/>
 		</Grid>
 	</Grid>
 </Page>
